@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlbumsFragment">
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Album reader is currently unavilable!!"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The app does not have the permission to read the external storages and show directories path"
+        android:textSize="22dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We are working on it and promise to update the ALBUMS feature soon!!"
+        android:textSize="22dp"
+        android:layout_marginTop="250dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold|italic"
+        />
+
+</FrameLayout>
